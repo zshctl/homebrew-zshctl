@@ -3,8 +3,8 @@ require "formula"
 class Zshctl < Formula
   desc "ZSH CLI application framework."
   homepage "https://github.com/flatheadmill/zshctl"
-  url "https://zshctl.sh/downloads/zshctl-0.0.7.tar.gz"
-  sha256 "bcfd2a403a48c9abddebbafb02d6c7e59230f485ce6e64a08dc94f618cda4001"
+  url "https://zshctl.sh/downloads/zshctl-0.0.8.tar.gz"
+  sha256 "010ae96a2da4a5b8317d7c7cc648724a158b3a30b88757bb73eb9855e08aa5cc"
 
   def install
     bin.install "bin/" + "zshctl"
