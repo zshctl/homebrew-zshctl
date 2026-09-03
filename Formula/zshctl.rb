@@ -4,7 +4,7 @@ class Zshctl < Formula
   desc "ZSH CLI application framework."
   homepage "https://github.com/flatheadmill/zshctl"
   url "https://zshctl.sh/downloads/zshctl-0.0.8.tar.gz"
-  sha256 "010ae96a2da4a5b8317d7c7cc648724a158b3a30b88757bb73eb9855e08aa5cc"
+  sha256 "2b422fe48f9a4029c8c067c2919b14c9c5955616fd21958cd39d1a2147b43474"
 
   def install
     bin.install "bin/" + "zshctl"
